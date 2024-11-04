@@ -36,7 +36,6 @@ fn test_hcf_30_24() {
     assert_eq!(result, 6)
 }
 
-#[ignore]
 #[test]
 fn test_add_simplifying() {
     let result = add((1, 2), (1, 4));
